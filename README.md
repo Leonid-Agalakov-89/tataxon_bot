@@ -12,14 +12,17 @@ Tataxon Bot - это телеграм-бот для поиска и отобра
    cd tataxon_bot
    
 2. Создайте виртуальное окружение и установите зависимости:
+  ```
   python -m venv venv
   source venv/bin/activate  # Для Linux/macOS
   venv\Scripts\activate     # Для Windows
   pip install -r requirements.txt
+  ```
 
-3. Создайте файл .env и укажите в нём токен бота и другие настройки:
+3. Создайте файл .env и укажите в нём токен бота:
+  ```
   TELEGRAM_BOT_TOKEN=your_token_here
-  API_BASE_URL=https://example.com/api
+  ```
 
 4. Запустите бота:
   python manage.py start_bot
